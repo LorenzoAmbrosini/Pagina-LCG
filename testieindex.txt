@@ -1,0 +1,205 @@
+pages = {
+    
+    
+    
+     "pagehome": {
+          
+   header: "Rosaspina",
+   content: "",
+   left: "Mappa interattiva",
+   goLeft: "pageinteractive",
+   right: "Inizia",
+   goRight: "page000",
+   mid: "autori",
+   gomid: "pageautori",
+         game: "#ese",
+         bottonegrafico: "#eseros",
+         ingombro: "#immagineingombro",
+        
+ },
+    
+    
+     "pageautori": {
+   header: "Autori",
+   content: "Ecco tutti gli autori",
+   left: "",
+   goLeft: "",
+   right: "",
+   goRight: "",
+         mid: "Home",
+   gomid: "pagehome",
+           noimmagine: true
+ },
+    
+      "pageinteractive": {
+   header: "Mappa interattiva",
+   content: "Raggiungi la pagina che desideri",
+   left: "Home",
+   goLeft: "pagehome",
+   right: "Inizia",
+   goRight: "page000",
+          mid: "",
+   gomid: "",
+           noimmagine: true
+ },
+    
+    
+ "page000": {
+   header: "Il battesimo di Rosaspina",
+   content: "Al battesimo di Rosaspina si presentano tutte le fate del regno, ma una non viene invitata. Quest'ultima irrompe nel bel mezzo della cerimonia e lancia una maledizione verso la piccola bambina: il giorno del suo sedicesimo compleanno si sarebbe punta con un arcolaio e sarebbe caduta in un sonno profondo lungo cent'anni, per poi morire. Solo il bacio del vero amore avrebbe potuto sciogliere l'incantesimo... Avrà effetto il malefico sortilegio? ",
+   left: "L'incantesimo ha effetto",
+   goLeft: "page010",
+   right: "La tata cattiva non riesce a lanciare l'incantesimo",
+   goRight: "page020",
+     mid: "",
+   gomid: "",
+     noautori: true,
+     norosa: true,
+   
+ },
+ "page010": {
+   header: "Sedicesimo compleanno",
+   content: "",
+   game: "#gioco1",
+   left: "Rosaspina si punge accidentalmente",
+   goLeft: "page030",
+   right: "Rosaspina, dubbiosa, decise di non provare ad utilizzare l’arcolaio",
+   goRight: "page020",
+     mid: "",
+   gomid: ""
+ },
+ "page020": {
+   header: "Rosaspina crebbe bella come una rosa",
+   content: "Rosaspina crebbe allegra e felice e divenne bella come la rosa più rossa della città. Accade che un giorno ella, decise di raccogliere tutti i fiori del suo giardino, ma senza accorgersi raccolse anche quelli della fata cattiva. Ella, innervosita, trovò l'opportunità di lanciare il sortilegio.",
+   left: "",
+   goLeft: "",
+   right: "Si addormenta",
+   goRight: "page030"
+ },
+ "page040": {
+   header: "Passati cent'anni...",
+   content: "Passa il tempo e un ragazzo che aveva sentito la notizia della bella fanciulla addormentata arrivò alla villa. Riuscirà a raggiungere Rosaspina? ",
+   left: "Sì",
+   goLeft: "page050",
+   right: "No",
+   goRight: "page060"
+ },
+ "page030": {
+   header: "Si punse e cadde in un sonno profondo",
+   content: "Rosaspina si addormentò all'istante insieme a tutti i suoi familiari. Solo il bacio del vero amore avrebbe potuto salvare la bellissima Rosaspina. ",
+   left: "",
+   goLeft: "",
+   right: "Passano gli anni",
+   goRight: "page040"
+ },
+ "page050": {
+   header: "L’amore è nell’aria",
+   content: "Il ragazzo riuscì a raggiungere la signorina e, incantato dalla sua bellezza, la baciò. Si sveglierà la bella addormentata?",
+   left: "Sì",
+   goLeft: "page070",
+   right: "No",
+   goRight: "pagina080"
+ },
+ "page060": {
+   header: "Passarono gli anni e Rosaspina non si svegliò",
+   content: "Le fate decisero di rinunciare a salvare la piccola Rosaspina. Ella continuò a dormire per anni e anni finchè la morte non la prese con sé.",
+   left: "",
+   goLeft: "",
+   right: "",
+   goRight: ""
+ },
+ "page080": {
+   header: "Una rosa appassita",
+   content: "Nessun effetto. La fanciulla non si svegliò. Il ragazzo notò che il viso della fanciulla inizò ad impallidire, si avvicinò e sentì che il cuore della fanciulla aveva smesso di battere.",
+   left: "",
+   goLeft: "",
+   right: "",
+   goRight: ""
+ },
+ "page070": {
+   header: "Il risveglio",
+   content: "Rosaspina aprì gli occhi e icrociò immediatamente lo sguardo del ragazzo...",
+   left: "Se ne innamorò",
+   goLeft: "page090",
+   right: "Schifata, lo allontanò urlando",
+   goRight: "page100"
+ },
+ "page090": {
+   header: "Amor omnia vincit",
+   content: "Fu amore a prima vista. ",
+   left: "",
+   goLeft: "",
+   right: "Per sempre insieme",
+   goRight: "page110"
+ },
+ "page100": {
+   header: "Amore e altri rimedi",
+   content: "Il risveglio non fu dei più graditi per Rosaspina. Al solo pensiero di esser stata baciata dal ragazzo si sentiva svenire. I genitori cercarono di convincerla a dargli una possibilità ma lei non ne volle sapere. Dopo un periodo di stalking sempre più pressante, Rosaspina decise di scappare. C'è chi dice sia scappata a Londra e che ora studi ad Harvard. Altri dicono che si sia data alla danza e che ora sia una ballerina del più famoso teatro di Broadway. C'è chi dice infine che allevi canguri a Lawn Hill, in Australia, dove si dice viva con la sua fidanzata.",
+   left: "",
+   goLeft: "",
+   right: "",
+   goRight: ""
+ },
+ "page110": {
+    header: "Per sempre insieme",
+    content: "Rosaspina e il ragazzo qualche mese più tardi si sposarono, e decisero di sistemare la villa della famiglia di Rosaspina vivendo per sempre felici e contenti. ",
+    left: "",
+    goLeft: "",
+    right: "",
+    goRight: ""
+},
+ }
+
+var currentStatus = "pagehome";
+
+function render() {
+    
+
+  $(".game").css({display:"none"});
+  currentPage = pages[currentStatus];
+  $("#header").text(currentPage.header);
+  $("#left").text(currentPage.left);
+  $("#right").text(currentPage.right);
+$("#mid").text(currentPage.mid);
+  $("#content").text(currentPage.content);
+  if(currentPage.game) {$(currentPage.game).fadeIn();}
+    if(currentPage.noautori) {$("#mid").fadeOut(0);}   
+     if(currentPage.norosa) {$("#eseros").fadeOut(0);} 
+    if(currentPage.noimmagine) {$("#immagineingombro").fadeOut(0);}
+    
+                
+}
+
+
+
+
+function changePage (direction) {
+  
+  currentStatus = pages[currentStatus][direction];
+
+  render();
+}
+
+function buttondis () {
+    $("#mid").css({"opacity": "0",});
+}
+
+
+function goLeft () {
+  changePage("goLeft");
+}
+
+function gomid () {
+  changePage("gomid");
+}
+
+
+function goRight () {
+  changePage("goRight");
+}
+
+$("#left").click(goLeft);
+$("#right").click(goRight);
+$("#mid").click(gomid);
+
+render()

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rosaspina</title>
+
+  <style>
+
+    @font-face {
+      font-family: 'SteppITCStd-Bold';
+      src: url('Font/SteppITCStd-Bold.otf');
+    }
+
+    @font-face {
+      font-family: "Futura URW Medium";
+      src: url("Font/Futura URW Medium.ttf");
+    }
+
+    body {
+      background-image: url("immaginigioco/Texture 20s.png");
+      background-repeat: repeat;
+      background-size: 583px 445.8px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <script src="phaser.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+
+  <div id="wrapper">
+
+
+
+    <img src="./Render/Copertina.png" alt="" class="gamer" id="ese">
+    </img>
+
+
+
+
+    <img src="./immaginigioco/sfondonero-01.png" alt="" class="gamer2" id="pagnor">
+    </img>
+
+    <img src="./immaginigioco/Crediti finali.png" alt="" class="gamer2" id="paginacrediti">
+    </img>
+
+    <img src="./immaginigioco/autoriultimo-01-01.png" alt="" class="gamer3" id="pagaut">
+    </img>
+
+    <img src="./immaginigioco/mapparettangoli_correttaprova-01-01-01-01-01.png" alt="" class="gamer4" id="pagmap">
+    </img>
+
+
+
+    <img src="./immaginigioco/occupogioco.jpg" alt="" class="game" id="esegioco">
+    </img>
+    <img src="./immaginigioco/rettangolospazio-01.png" alt="" class="ingombro" id="immagineingombro">
+    </img>
+    <img src="./immaginigioco/BATTESIMO.png" alt="" class="ingombrorender" id="render1">
+    </img>
+    <img src="./immaginigioco/arcolaio_finito.png" alt="" class="ingombrorender" id="render2">
+    </img>
+    <img src="./immaginigioco/definitivo_da sola_100.png" alt="" class="ingombrorender" id="render3">
+    </img>
+    <img src="./immaginigioco/SISTEMATO_Rosaappassitarerenderfinal.png" alt="" class="ingombrorender" id="render4">
+    </img>
+    <img src="./immaginigioco/SISTEMATO_Il risveglio 060.png" alt="" class="ingombrorender" id="render5">
+    </img>
+    <img src="./immaginigioco/amor omnia.png" alt="" class="ingombrorender" id="render6">
+    </img>
+    <img src="./immaginigioco/Festa.png" alt="" class="ingombrorender" id="render7">
+    </img>
+    <img src="./immaginigioco/principe rifiutato.png" alt="" class="ingombrorender" id="render8">
+    </img>
+    <img src="./immaginigioco/SISTEMATO_feliciecontenti110.png" alt="" class="ingombrorender" id="render9">
+    </img>
+
+
+
+    <img src="./immaginigioco/primo paragrafo-01.png" alt="" class="testoposizione1" id="t1">
+    </img>
+
+    <img src="./immaginigioco/terzo paragrafo-01.png" alt="" class="testoposizione2" id="t2">
+    </img>
+
+    <img src="./immaginigioco/secondo paragrafo_giusto.png" alt="" class="testoposizione3" id="t3">
+    </img>
+
+    <img src="./immaginigioco/quarto paragrafo.png" alt="" class="testoposizione4" id="t4">
+    </img>
+
+    <img src="./immaginigioco/quinto paragrafo.png" alt="" class="testoposizione5" id="t5">
+    </img>
+
+    <img src="./immaginigioco/gattone-01.png" alt="" class="testoposizione6" id="t6">
+    </img>
+
+    <img src="./immaginigioco/undicesimo paragrafo-01.png" alt="" class="testoposizione7" id="t7">
+    </img>
+
+    <img src="./immaginigioco/settimo paragrafo-01.png" alt="" class="testoposizione8" id="t8">
+    </img>
+
+    <img src="./immaginigioco/sesto paragrafo-01.png" alt="" class="testoposizione9" id="t9">
+    </img>
+
+    <img src="./immaginigioco/nono paragrafo-01.png" alt="" class="testoposizione10" id="t10">
+    </img>
+
+    <img src="./immaginigioco/paragrafodi90.png" alt="" class="testoposizione11" id="t11">
+    </img>
+    <img src="./immaginigioco/decimo paragrafo-01.png" alt="" class="testoposizione12" id="t12">
+    </img>
+
+
+
+
+
+
+
+
+
+
+    <h1 id="header">
+    </h1>
+
+
+    <div id="content">
+    </div>
+    <div id="gioco1" class="game" style="display:none">
+    </div>
+    <div id="gioco2" class="game" style="display:none">
+    </div>
+
+    <div id="tornahome" class="tastiinbasso"> </div>
+    <div id="tornamappa" class="tastiinbasso"> </div>
+    <div id="pulsantemappahome" class="tastiinbasso"> </div>
+
+
+    <div id="footer">
+
+
+      <div id="left" class="button">
+      </div>
+      <div id="mid" class="button">
+      </div>
+
+      <div id="right" class="button">
+      </div>
+
+
+      <div id="scena010">
+      </div>
+
+      <div id="scena020">
+      </div>
+
+      <div id="scena030">
+      </div>
+
+      <div id="scena040">
+      </div>
+
+      <div id="scena050">
+      </div>
+      <div id="scena060">
+      </div>
+
+      <div id="scena070">
+      </div>
+
+      <div id="scena080">
+      </div>
+
+      <div id="scena090">
+      </div>
+
+      <div id="scena100">
+      </div>
+
+      <div id="scena110">
+      </div>
+
+
+
+
+
+
+      <img src="./immaginigioco/titolo.png" alt="" class="titolo" id="titolohome">
+      </img>
+
+
+      <img src="./immaginigioco/colophongiusto-01-01-01.png" alt="" class="testocolophon" id="colophon">
+      </img>
+
+
+    </div>
+    <script src='jquery.min.js'></script>
+
+    <script src="JS/index.js"></script>
+
+    <script src="gioco1.js"></script>
+    <script src="gioco2.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+Resoconto pacchetto
+
+-----------------------------------------------------------------------------
+Documento: 
+Nome: paginaautori_corretta.ai
+Metodo colore: Colore RGB
+Profilo colore:  sRGB IEC61966-2.1
+Unitˆ righelli: centimetri
+Dimensioni tavola disegno: 35,2778 cm x 24,6944 cm
+Mostra immagini con metodo contorno: NO
+Evidenzia font sostituiti: NO
+Evidenzia glifi sostituiti: NO
+Mantieni testo modificabile
+Simula carta colorata: NO
+
+-----------------------------------------------------------------------------
+Oggetti in tinta piatta: 
+
+-----------------------------------------------------------------------------
+Font mancanti:NESSUNO
+
+-----------------------------------------------------------------------------
+Font protetti non inclusi nel pacchetto:NESSUNO
+
+-----------------------------------------------------------------------------
+Font: 
+Futura Book BT (TrueType)
+
+-----------------------------------------------------------------------------
+Font incorporati:
+NESSUNO
+
+-----------------------------------------------------------------------------
+Collegamenti mancanti:
+NESSUNO
+
+-----------------------------------------------------------------------------
+Immagini collegate: 
+
+/Utenti/cadmioboro/Download/IMG_0282 2.JPG
+Tipo: RGB
+Bit per pixel: 24
+Canali: 3
+Dimensione: 35721K, 4032 per 3024 pixel
+Dimensioni: 134,998 per 179,998 punti 
+Risoluzione: 2150,427 per 1209,615 pixel per pollice
+
+
+/Utenti/cadmioboro/Scrivania/22450178_1651886744862967_3939545826893064209_n
+Tipo: RGB
+Bit per pixel: 24
+Canali: 3
+Dimensione: 2373K, 900 per 900 pixel
+Dimensioni: 247,356 per 247,356 punti 
+Risoluzione: 261,97 per 261,97 pixel per pollice
+
+
+/Utenti/cadmioboro/Scrivania/POLIMI 2017/2018/rappresentazione grafica/foto/IMG_0185-1.jpg
+Tipo: RGB
+Bit per pixel: 24
+Canali: 3
+Dimensione: 14649K, 1752 per 2854 pixel
+Dimensioni: 110,997 per 180,814 punti 
+Risoluzione: 1136,463 per 1136,463 pixel per pollice
+
+
+/Utenti/cadmioboro/Scrivania/POLIMI 2017/2018/rappresentazione grafica/foto/IMG_20170924_150043.jpg
+Tipo: RGB
+Bit per pixel: 24
+Canali: 3
+Dimensione: 28285K, 2722 per 3547 pixel
+Dimensioni: 220,062 per 286,76 punti 
+Risoluzione: 890,586 per 890,586 pixel per pollice
+
+
+/Utenti/cadmioboro/Scrivania/POLIMI 2017/2018/rappresentazione grafica/foto/DavideMacchi.jpg
+Tipo: RGB
+Bit per pixel: 24
+Canali: 3
+Dimensione: 32421K, 3424 per 3232 pixel
+Dimensioni: 186,322 per 175,874 punti 
+Risoluzione: 1323,128 per 1323,128 pixel per pollice
