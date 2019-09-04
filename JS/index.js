@@ -800,7 +800,7 @@ pages = {
     content: "",
     left: "Se ne innamora",
     goLeft: "page090",
-    right: "Schifata, lo respinge",
+    right: "Lo respinge",
     goRight: "page100",
     gamer: "#ese",
     tornahome: "Copertina",
