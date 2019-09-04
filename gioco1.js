@@ -109,7 +109,7 @@ function create() {
 
     layer.resizeWorld();
 
-    game.physics.arcade.gravity.y = 400;
+    game.physics.arcade.gravity.y = 1000;
 
     uscita = game.add.sprite(782, 1450, 'door'); //uscita
     game.physics.arcade.enable(uscita);
